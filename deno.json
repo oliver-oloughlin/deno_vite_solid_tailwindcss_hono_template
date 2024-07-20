@@ -1,0 +1,25 @@
+{
+  "nodeModulesDir": true,
+  "imports": {
+    "autoprefixer": "npm:autoprefixer@^10.4.19",
+    "hono": "jsr:@hono/hono",
+    "postcss": "npm:postcss@^8.4.39",
+    "solid-js": "npm:solid-js@^1.8.16",
+    "tailwindcss": "npm:tailwindcss@^3.4.6",
+    "vite": "npm:vite@^5.2.6",
+    "vite-plugin-solid": "npm:vite-plugin-solid@^2.10.2"
+  },
+  "tasks": {
+    "dev": "deno task dev:server & deno task dev:client",
+    "dev:server": "deno run -A --unstable-kv ./server/main.ts",
+    "dev:client": "deno run -A npm:vite ./client",
+    "build:client": "deno run -A npm:vite build ./client",
+    "preview:client": "deno run -A npm:vite preview ./client",
+    "serve:client": "deno run -A jsr:@std/http@^0.220.0/file_server ./client/dist/"
+  },
+  "compilerOptions": {
+    "lib": ["DOM", "DOM.Iterable"],
+    "jsx": "react-jsx",
+    "jsxImportSource": "npm:solid-js@^1.8.16"
+  }
+}
