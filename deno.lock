@@ -8,6 +8,7 @@
       "npm:postcss": "npm:postcss@8.4.39",
       "npm:postcss@^8.4.39": "npm:postcss@8.4.39",
       "npm:solid-js@^1.8.16": "npm:solid-js@1.8.18_seroval@1.0.7",
+      "npm:tailwind-merge@^2.4.0": "npm:tailwind-merge@2.4.0",
       "npm:tailwindcss": "npm:tailwindcss@3.4.4_postcss@8.4.39",
       "npm:tailwindcss@^3.4.6": "npm:tailwindcss@3.4.6_postcss@8.4.39",
       "npm:vite": "npm:vite@5.3.3",
@@ -1174,6 +1175,10 @@
         "integrity": "sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==",
         "dependencies": {}
       },
+      "tailwind-merge@2.4.0": {
+        "integrity": "sha512-49AwoOQNKdqKPd9CViyH5wJoSKsCDjUlzL8DxuGp3P1FsGY36NJDAa18jLZcaHAUUuTj+JB8IAo8zWgBNvBF7A==",
+        "dependencies": {}
+      },
       "tailwindcss@3.4.4_postcss@8.4.39": {
         "integrity": "sha512-ZoyXOdJjISB7/BcLTR6SEsLgKtDStYyYZVLsUtWChO4Ps20CBad7lfJKVDiejocV4ME1hLmyY0WJE3hSDcmQ2A==",
         "dependencies": {
@@ -1337,6 +1342,7 @@
       "npm:autoprefixer@^10.4.19",
       "npm:postcss@^8.4.39",
       "npm:solid-js@^1.8.16",
+      "npm:tailwind-merge@^2.4.0",
       "npm:tailwindcss@^3.4.6",
       "npm:vite-plugin-solid@^2.10.2",
       "npm:vite@^5.2.6"

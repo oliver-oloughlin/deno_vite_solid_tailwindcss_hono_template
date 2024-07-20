@@ -5,6 +5,7 @@
     "hono": "jsr:@hono/hono",
     "postcss": "npm:postcss@^8.4.39",
     "solid-js": "npm:solid-js@^1.8.16",
+    "tailwind-merge": "npm:tailwind-merge@^2.4.0",
     "tailwindcss": "npm:tailwindcss@^3.4.6",
     "vite": "npm:vite@^5.2.6",
     "vite-plugin-solid": "npm:vite-plugin-solid@^2.10.2"
