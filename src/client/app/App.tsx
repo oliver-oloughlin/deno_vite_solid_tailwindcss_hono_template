@@ -1,7 +1,7 @@
 function App() {
   return (
-    <main>
-      <h1 class="bg-red-400">Hello World!</h1>
+    <main class="py-32">
+      <h1 class="text-cyan-200 text-center">Hello World!</h1>
     </main>
   );
 }
