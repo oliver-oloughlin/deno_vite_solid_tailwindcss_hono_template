@@ -2,19 +2,16 @@
   "version": "3",
   "packages": {
     "specifiers": {
-      "jsr:@hono/hono": "jsr:@hono/hono@4.4.12",
       "npm:@types/node": "npm:@types/node@18.16.19",
+      "npm:hono": "npm:hono@4.5.1",
+      "npm:hono@^4.5.1": "npm:hono@4.5.1",
       "npm:solid-js@^1.8.16": "npm:solid-js@1.8.18_seroval@1.1.0",
       "npm:solid-js@^1.8.18": "npm:solid-js@1.8.18_seroval@1.1.0",
+      "npm:tailwind-merge@^2.4.0": "npm:tailwind-merge@2.4.0",
       "npm:tailwindcss@^3.4.6": "npm:tailwindcss@3.4.6_postcss@8.4.39",
       "npm:vite": "npm:vite@5.3.4_@types+node@18.16.19",
       "npm:vite-plugin-solid@^2.10.2": "npm:vite-plugin-solid@2.10.2_solid-js@1.8.18__seroval@1.1.0_vite@5.3.4__@types+node@18.16.19_@babel+core@7.24.9_@types+node@18.16.19",
       "npm:vite@^5.2.6": "npm:vite@5.3.4_@types+node@18.16.19"
-    },
-    "jsr": {
-      "@hono/hono@4.4.12": {
-        "integrity": "75658e5402dc95df483a1961b8fb4ef73391a2c70109f97ad8e12d3b7b6f03c5"
-      }
     },
     "npm": {
       "@alloc/quick-lru@5.2.0": {
@@ -764,6 +761,10 @@
           "function-bind": "function-bind@1.1.2"
         }
       },
+      "hono@4.5.1": {
+        "integrity": "sha512-6q8AugoWG5wlrjdGG8OFFiqEsPlPGjODjUik48sEJeko4Tae1UsLS2vUiYHLEJx1gJvOZa4BWkQC+urwDmkEvQ==",
+        "dependencies": {}
+      },
       "html-entities@2.3.3": {
         "integrity": "sha512-DV5Ln36z34NNTDgnz0EWGBLZENelNAtkiFA4kyNOG2tDI6Mz1uSWiq1wAKdyjnJwyDiDO7Fa2SO1CTxPXL8VxA==",
         "dependencies": {}
@@ -1151,6 +1152,10 @@
         "integrity": "sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==",
         "dependencies": {}
       },
+      "tailwind-merge@2.4.0": {
+        "integrity": "sha512-49AwoOQNKdqKPd9CViyH5wJoSKsCDjUlzL8DxuGp3P1FsGY36NJDAa18jLZcaHAUUuTj+JB8IAo8zWgBNvBF7A==",
+        "dependencies": {}
+      },
       "tailwindcss@3.4.6_postcss@8.4.39": {
         "integrity": "sha512-1uRHzPB+Vzu57ocybfZ4jh5Q3SdlH7XW23J5sQoM9LhE9eIOlzxer/3XPSsycvih3rboRsvt0QCmzSrqyOYUIA==",
         "dependencies": {
@@ -1284,8 +1289,8 @@
   "remote": {},
   "workspace": {
     "dependencies": [
-      "jsr:@hono/hono",
       "npm:autoprefixer@^10.4.19",
+      "npm:hono@^4.5.1",
       "npm:postcss@^8.4.39",
       "npm:solid-js@^1.8.18",
       "npm:tailwind-merge@^2.4.0",

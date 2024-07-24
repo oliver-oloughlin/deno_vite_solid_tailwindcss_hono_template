@@ -2,7 +2,7 @@
   "nodeModulesDir": true,
   "imports": {
     "autoprefixer": "npm:autoprefixer@^10.4.19",
-    "hono": "jsr:@hono/hono",
+    "hono": "npm:hono@^4.5.1",
     "postcss": "npm:postcss@^8.4.39",
     "solid-js": "npm:solid-js@^1.8.18",
     "tailwind-merge": "npm:tailwind-merge@^2.4.0",
