@@ -1,5 +1,5 @@
 {
-  "nodeModulesDir": true,
+  "nodeModulesDir": "auto",
   "imports": {
     "autoprefixer": "npm:autoprefixer@^10.4.19",
     "hono": "npm:hono@^4.5.1",
@@ -12,7 +12,7 @@
   },
   "tasks": {
     "dev": "deno task dev:server & deno task dev:client",
-    "dev:server": "deno run -A --watch --watch-exclude=./src/client --env index.ts dev",
+    "dev:server": "deno run -A --watch --watch-exclude=./src/client index.ts dev",
     "dev:client": "deno run -A npm:vite",
     "build": "deno run -A npm:vite build",
     "start": "deno run -A index.ts"
